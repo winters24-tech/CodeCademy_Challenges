@@ -46,7 +46,7 @@ print("Hi, Customer 1! The best way to ship your 4.8lbs box here at Sal's would 
 
 #find the cheapest price to ship a 41.5lb package
 C2_package = 41.5
-ground_C2 = C2_package * 3.00 + 20.00
-drone_C2 = C2_package * 9.00 + 0.00
+ground_C2 = C2_package * 4.75 + 20.00
+drone_C2 = C2_package * 14.25 + 0.00
 
 print("Hi, Customer 2! The best way to ship your 41.5lbs box here at Sal's would be ground shipping premium which has a flat rate price of", '${:,.2f}\n'.format(125.00))
